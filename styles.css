@@ -1,0 +1,16 @@
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+}
+
+#calculatorContainer{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+button{
+  width: 150;
+  height: 50;
+}
