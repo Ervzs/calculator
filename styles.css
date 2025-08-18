@@ -1,6 +1,4 @@
 body{
-  display: flex;
-  flex-direction: column;
   background-color: beige;
   justify-items: center;
   align-content: center;
@@ -9,16 +7,21 @@ body{
 #screen{
   display: flex;
   flex-direction: column;
-  width: 180px;
-  border: 5px solid box;
+  width: 100px;
+  border: 2px solid black;
+  margin: 5px;
+  background-color: aliceblue;
 }
 .calculatorContainer{
   display: flex;
   flex-direction: column;
   border: 3px solid black;
-  width: 200px;
-  height: 400px;
-  
+  width: 120px;
+  height: 150px;
+}
+
+#firstRow, #secondRow, #thirdRow, #fourthRow{
+  margin: 5px;
 }
 
 button{
