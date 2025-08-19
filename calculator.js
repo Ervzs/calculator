@@ -90,8 +90,10 @@ function showResult(operation){
             answer = multiplication();
             screen.textContent = answer;
             break;
-
         default:
             console.log('Incorrect Input.')
     }
+    console.log('Answer: ' + answer);
+    temp = answer;
+    console.log('New First Number: ' + temp);
 }
